@@ -47,9 +47,9 @@ namespace InputProgram
             Console.Write("Enter age: ");
             string vv = Console.ReadLine();
 
-            Console.Write(xx) ;
-            Console.Write(cc) ;
-            Console.Write(vv) ;
+            Console.Write(xx +" ") ;
+            Console.Write(cc + " ") ;
+            Console.Write(vv + " ") ;
 
 
             Console.WriteLine("******************************");
@@ -63,7 +63,7 @@ namespace InputProgram
             }
             foreach (var i in random)
             {
-                Console.Write(i);
+                Console.Write(i+" ");
             }
 
 
