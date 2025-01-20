@@ -6,23 +6,26 @@ using System.Threading.Tasks;
 
 namespace task2
 {
+
     internal class Program
     {
+
         static void Main(string[] args)
         {
+
             Console.WriteLine("ex 1 **********************");
 
             string convert = Console.ReadLine();
             double num0 = double.Parse(convert);
             int num1 = int.Parse(convert);
-            Console.WriteLine(" int is "+num1);
+            Console.WriteLine(" int is " + num1);
             Console.WriteLine(" double is " + num0);
 
             Console.WriteLine("ex 2 **********************");
 
-           string num3 = Console.ReadLine();
+            string num3 = Console.ReadLine();
             int num4 = int.Parse(num3);
-            string num5= convert.ToString();
+            string num5 = convert.ToString();
             Console.WriteLine(num5);
 
             Console.WriteLine("ex 3 **********************");
@@ -34,14 +37,14 @@ namespace task2
 
             Console.WriteLine("ex 4 **********************");
 
-            string str1 =Console.ReadLine();
+            string str1 = Console.ReadLine();
             string str2 = Console.ReadLine();
 
             int con0 = str1.Length + str2.Length;
-             
-            Console.WriteLine("first name "+str1);
+
+            Console.WriteLine("first name " + str1);
             Console.WriteLine("last  name " + str2);
-            Console.WriteLine("total "+con0);
+            Console.WriteLine("total " + con0);
 
             Console.WriteLine("ex 5 **********************");
 
@@ -62,7 +65,7 @@ namespace task2
 
             Console.WriteLine("ex 6 **********************");
 
-            string sum11 =Console.ReadLine();
+            string sum11 = Console.ReadLine();
             int num12 = int.Parse(sum11);
             double num13 = num12 * 0.6;
             Console.WriteLine(num13);
@@ -72,11 +75,11 @@ namespace task2
 
 
             Console.WriteLine("enter hours");
-            string sum13=Console.ReadLine();
+            string sum13 = Console.ReadLine();
             Console.WriteLine("enter min");
-            string num14 =Console.ReadLine();
-            int num16=int.Parse(sum13);
-            int num17=int.Parse(num14);
+            string num14 = Console.ReadLine();
+            int num16 = int.Parse(sum13);
+            int num17 = int.Parse(num14);
 
             int num18 = num16 * 60 + num17;
             Console.WriteLine(num18);
@@ -89,7 +92,7 @@ namespace task2
 
             int num116 = int.Parse(sum113);
             double num121 = num116 / 60;
-            Console.WriteLine("the hours "+num121);
+            Console.WriteLine("the hours " + num121);
 
             Console.WriteLine("ex 9 **********************");
 
@@ -99,7 +102,7 @@ namespace task2
             string num134 = Console.ReadLine();
             int num126 = int.Parse(sum123);
             int num127 = int.Parse(num134);
-            if (num126==num127)
+            if (num126 == num127)
             {
                 Console.WriteLine("equal");
             }
@@ -107,7 +110,7 @@ namespace task2
             {
                 Console.WriteLine("smaler");
             }
-            if (num126>num127)
+            if (num126 > num127)
             {
                 Console.WriteLine("greater");
             }
@@ -115,19 +118,19 @@ namespace task2
             Console.WriteLine("ex 10 **********************");
 
             string sum143 = Console.ReadLine();
-            for (int i = sum143.Length; i < sum143.Length; --i)
+            for (int i = sum143.Length - 1; i >= 0; i--)
             {
-                Console.Write("reserved number is :"+sum143[i]); 
+                Console.Write("reserved number is :" + sum143[i]);
 
             }
 
             Console.WriteLine("ex 11 **********************");
 
             string sum144 = Console.ReadLine();
-            int sum1213=int.Parse(sum144);
+            int sum1213 = int.Parse(sum144);
             string sum141 = Console.ReadLine();
             int sum121 = int.Parse(sum141);
-            if (sum1213%sum121!=0)
+            if (sum1213 % sum121 != 0)
             {
                 Console.WriteLine("not divisble");
             }
@@ -143,15 +146,15 @@ namespace task2
             string sum166 = Console.ReadLine();
             int sum167 = int.Parse(sum166);
             string sum178 = Console.ReadLine();
-            int sum179= int.Parse(sum178);
+            int sum179 = int.Parse(sum178);
 
-            if (sum163>sum167 && sum163 < sum179) 
+            if (sum163 > sum167 && sum163 < sum179)
             {
 
                 Console.WriteLine(sum163);
-            
+
             }
-            if (sum163 <sum167 && sum167 < sum179)
+            if (sum163 < sum167 && sum167 < sum179)
             {
 
                 Console.WriteLine(sum167);
@@ -164,6 +167,11 @@ namespace task2
 
             }
 
+
+
+
         }
     }
 }
+    
+
