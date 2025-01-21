@@ -13,9 +13,9 @@ namespace Task4
     {
         public class student
         {
-            public string name { get; set; }
-            public int id { get; set; }
-            private int age { get; set; }
+            private string name;
+            private int id;
+            private int age;
             public string email { get; set; }
 
             public const int maxage = 40;
@@ -59,17 +59,28 @@ namespace Task4
             {
                 Console.WriteLine("delet");
             }
-
+            public int agee
+            {
+                set {  age = value; }
+                get {  return age; }
+            }
+            public int idd
+            {
+                set { id = value; }
+                get { return id; }
+            }
+            public string namee
+            {
+                set { name = value; }
+                get { return name; }
+            }
 
 
 
         }
         static void Main(string[] args)
         {
-            student obj = new student();
-            obj.name = "anas";
-            obj.id = 1;
-            obj._age= 1;
+            student obj = new student(3,"annas",22);
             obj.getde();
             student obj1 = new student(1, "anas", 4);
             obj1.getde();
