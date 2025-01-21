@@ -10,6 +10,8 @@ namespace day3_task3_
     {
         public static void odd()
         {
+            Console.WriteLine(" odd or even  ");
+
             string i = Console.ReadLine();
             int i1 = int.Parse(i);
             if (i1 % 2 != 0)
@@ -25,6 +27,8 @@ namespace day3_task3_
 
         public static void sort()
         {
+            Console.WriteLine("enter array ");
+
             int[] arr = new int[5];
             for (int j = 0; j < 5; j++)
             {
@@ -39,6 +43,8 @@ namespace day3_task3_
 
         public static void fact()
         {
+            Console.WriteLine(" factorial number ");
+
             int d = 1;
             string i = Console.ReadLine();
             int i1 = int.Parse(i);
@@ -52,8 +58,7 @@ namespace day3_task3_
         public static void Prime()
         {
 
-            // from chat gpt لاني ما عرفت احله okkkkkkkkkk
-            Console.WriteLine("Enter a number:");
+            Console.WriteLine("Enter a number to check if prime :");
             string input = Console.ReadLine();
             int number = int.Parse(input);
 
@@ -85,6 +90,8 @@ namespace day3_task3_
         }
         public static void large()
         {
+            Console.WriteLine("second large number in array  ");
+
             int a = 1;
             int[] arr = { 5, 4, 6, 3, 9 };
             foreach (int i in arr)
@@ -101,6 +108,8 @@ namespace day3_task3_
         }
         public static void star()
         {
+            Console.WriteLine("q6 answer ");
+
             int n = 5;
             int num = 1;
             for (int i = 1; i <= n; i++)
@@ -128,6 +137,15 @@ namespace day3_task3_
         }
         static void Main(string[] args)
         {
+
+            odd();
+            sort();
+            fact();
+            Prime();
+            large();
+            star();
+
+
 
             room room1 = new room();
 
@@ -157,12 +175,7 @@ namespace day3_task3_
 
 
 
-            odd();
-            sort();
-            fact();
-            Prime();
-            large();
-            star();
+            
 
 
 
