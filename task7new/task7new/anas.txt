@@ -1,0 +1,7 @@
+saleh, saleh@gmail.com, 123,123
+anas,anas@gmail.com,123,123
+ali,ali@gmail.com,123,123
+admin,admin@gmail.com,123,123
+anas1,anas1@gmail.com,1234,1234
+ammar,ammar@gmail.com,123,123
+ userNmae, Email, password, Repeat your password
