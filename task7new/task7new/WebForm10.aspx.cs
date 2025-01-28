@@ -22,13 +22,8 @@ namespace task7new
 
             string path = Server.MapPath("book.txt");
 
-            if (File.Exists(path))
-            {
                 // Read all lines from the file into a List
                 var bookDetails = File.ReadAllLines(path).ToList();
-
-                // Flag to track if a match was found
-                bool matchFound = false;
 
                 // Iterate and update the line with the matching ID
                 for (int i = 0; i < bookDetails.Count; i++)
@@ -39,14 +34,12 @@ namespace task7new
                     if (parts[0].Trim() == id)
                     {
                         bookDetails[i] = $"{id}, {name}, {type}, {level}";
-                        matchFound = true;
                         File.WriteAllLines(path, bookDetails);
                         return;
                     }
                 }
 
 
-            }
         }
 
     }

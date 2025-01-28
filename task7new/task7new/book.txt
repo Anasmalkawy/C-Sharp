@@ -1,2 +1,2 @@
  1, car, sport, medium
-2, hani, easy, human
+2, anas, mid, human
