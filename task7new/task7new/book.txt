@@ -1,1 +1,2 @@
- jkbbll, khvkvlb, kvkkln, 68t8
+ 1, car, sport, medium
+2, hani, easy, human

@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <asp:Button class="btn btn-primary" runat="server" OnClick="Unnamed_Click1" Text="view book"/>
+                    <asp:Button class="btn btn-primary" runat="server" OnClick="Unnamed_Click1" Text="view meeting"/>
                 </div>
             </span>
             <span class="card" style="width: 18rem;">
@@ -24,7 +24,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <asp:Button class="btn btn-primary" runat="server" OnClick="Unnamed_Click" Text="view metting"/>
+                    <asp:Button class="btn btn-primary" runat="server" OnClick="Unnamed_Click" Text="view book"/>
                 </div>
             </span>
         </div>

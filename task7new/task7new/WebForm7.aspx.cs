@@ -25,5 +25,11 @@ namespace task7new
             Response.Redirect("WebForm9.aspx");
 
         }
+
+        protected void Unnamed_Click2(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm10.aspx");
+        }
+
     }
 }
