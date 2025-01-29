@@ -32,5 +32,26 @@ namespace task7new
             table1.InnerHtml = row.ToString();
 
         }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+
+            string id = abd.Text;
+            string path = Server.MapPath("book.txt");
+
+            var bookDetails = File.ReadAllLines(path).ToList();
+
+            for (int i = 0; i < bookDetails.Count; i++)
+            {
+                var parts = bookDetails[i].Split(',');
+
+                if (parts[0].Trim() == id)
+                {
+                    Console.WriteLine(bookDetails[i]);
+                    aba.Text = bookDetails[i];
+                    aba.Visible = true;
+                }
+            }
+        }
     }
 }

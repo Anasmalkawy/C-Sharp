@@ -16,13 +16,13 @@ namespace task7new
 
         protected void Unnamed_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            Response.Redirect("WebForm1.aspx");
 
         }
 
         protected void Unnamed_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm1.aspx");
+            Response.Redirect("WebForm2.aspx");
 
         }
     }

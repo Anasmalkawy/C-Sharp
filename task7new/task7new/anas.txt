@@ -5,3 +5,5 @@ admin,admin@gmail.com,123,123
 anas1,anas1@gmail.com,1234,1234
 ammar,ammar@gmail.com,123,123
  userNmae, Email, password, Repeat your password
+ayman,ayman@gmail.com,123,123
+ayman,ayman@gmail.com,123,123

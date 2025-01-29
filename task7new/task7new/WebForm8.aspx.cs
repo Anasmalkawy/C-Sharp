@@ -25,7 +25,7 @@ namespace task7new
             string filepath = Server.MapPath("book.txt");
        
 
-            string book = $"{bookid1},{bookname1},{booklevel1},{booktype1}";
+            string book = $"{bookid1},{bookname1},{booktype1},{booklevel1}";
 
             using (StreamWriter sw = new StreamWriter(filepath, true))
             {

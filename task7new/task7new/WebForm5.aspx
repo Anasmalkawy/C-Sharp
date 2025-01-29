@@ -22,11 +22,11 @@
                     </tr>
                 </thead>
                 <tbody id="table1" runat="server">
-                    
-                    
                 </tbody>
             </table>
-        </div>
+            <asp:TextBox runat="server" ID="abd"></asp:TextBox>
+            <asp:Button runat="server" OnClick="Unnamed_Click" Text="search"/>
+            <asp:Label ID="aba" runat="server" Visible="false"></asp:Label>
     </form>
 </body>
 </html>

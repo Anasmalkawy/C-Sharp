@@ -80,9 +80,6 @@ background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244
                     <asp:Button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" OnClick="btn1_Click" runat="server" Text="Register" />
                 </div>
 
-                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!"
-                    class="fw-bold text-body"><u>Login here</u></a></p>
-
               </form>
 
             </div>

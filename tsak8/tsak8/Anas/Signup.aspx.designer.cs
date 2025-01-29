@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace task7new
+namespace tsak8.Anas
 {
 
 
-    public partial class WebForm8
+    public partial class Signup
     {
 
         /// <summary>
@@ -24,39 +24,57 @@ namespace task7new
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// bookid control.
+        /// Fname1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bookid;
+        protected global::System.Web.UI.WebControls.TextBox Fname1;
 
         /// <summary>
-        /// bookname control.
+        /// Lname1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bookname;
+        protected global::System.Web.UI.WebControls.TextBox Lname1;
 
         /// <summary>
-        /// booktype control.
+        /// Email1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox booktype;
+        protected global::System.Web.UI.WebControls.TextBox Email1;
 
         /// <summary>
-        /// booklevel control.
+        /// password1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox booklevel;
+        protected global::System.Web.UI.WebControls.TextBox password1;
+
+        /// <summary>
+        /// phone1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox phone1;
+
+        /// <summary>
+        /// gender1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox gender1;
     }
 }

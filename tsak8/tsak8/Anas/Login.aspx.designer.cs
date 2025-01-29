@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace task7new
+namespace tsak8.Anas
 {
 
 
-    public partial class WebForm8
+    public partial class Login
     {
 
         /// <summary>
@@ -24,39 +24,21 @@ namespace task7new
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// bookid control.
+        /// email1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bookid;
+        protected global::System.Web.UI.WebControls.TextBox email1;
 
         /// <summary>
-        /// bookname control.
+        /// password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bookname;
-
-        /// <summary>
-        /// booktype control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox booktype;
-
-        /// <summary>
-        /// booklevel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox booklevel;
+        protected global::System.Web.UI.WebControls.TextBox password;
     }
 }

@@ -44,13 +44,16 @@
                             </li>
                         </ul>
                         <div class="d-flex">
-                            <asp:Button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" OnClick="Unnamed_Click" runat="server"  text="signin"/>
-                            <asp:Button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" OnClick="Unnamed_Click1" runat="server" text="sign up"/>
+                            <asp:Button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body ms-1" OnClick="Unnamed_Click" runat="server"  text="signin"/>
+                            <asp:Button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body ms-1" OnClick="Unnamed_Click1" runat="server" text="sign up"/>
 
                         </div>
                     </div>
                 </div>
             </nav>
+            <div style="width:100%;">
+                <img src="6.png" style="width:100%; height:400px;"/>
+            </div>
         </div>
     </form>
 </body>

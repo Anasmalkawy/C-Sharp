@@ -15,9 +15,12 @@ namespace task7new
 
         }
 
-        protected void btn2_Click(object sender, EventArgs e)
-        {
 
+
+
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
             string username = text1.Text;
             string password = text2.Text;
 
@@ -28,12 +31,12 @@ namespace task7new
             foreach (var user in usersdata)
             {
                 string[] userdata = user.Split(',');
-                if (username=="admin" && password=="123")
+                if (username == "admin" && password == "123")
                 {
                     Response.Redirect("WebForm7.aspx");
 
                 }
-                if (userdata[0] == username && userdata[2]==password)
+                if (userdata[0] == username && userdata[2] == password)
                 {
                     Response.Redirect("WebForm4.aspx");
                 }
@@ -41,5 +44,6 @@ namespace task7new
 
 
         }
+
     }
-}
+    }

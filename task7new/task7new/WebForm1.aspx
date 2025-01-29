@@ -66,15 +66,12 @@ border-bottom-right-radius: .3rem;
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                  <asp:Button  class="btn btn-outline-danger" runat="server" Text="Login" OnClick="btn2_Click" />
+                  <asp:Button  class="btn btn-outline-danger" runat="server" Text="Login" OnClick="Unnamed_Click" />
 
                     <a class="text-muted" href="#!">Forgot password?</a>
                   </div>
 
-                  <div class="d-flex align-items-center justify-content-center pb-4">
-                    <p class="mb-0 me-2">Don't have an account?</p>
-                      <asp:Button  class="btn btn-outline-danger" runat="server" Text="Login" OnClick="btn2_Click" />
-                  </div>
+ 
 
                 </form>
 
