@@ -35,8 +35,9 @@ namespace tsak8.Anas
             }
             else
             {
-                using (StreamWriter sw1 = File.CreateText(data))
-                { 
+                using (StreamWriter sw1 = new StreamWriter(data, true))
+
+                {
                     sw1.WriteLine($"{fname},{lname},{email},{password},{phone},{gender}");
 
                 }
