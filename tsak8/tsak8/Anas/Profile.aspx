@@ -90,7 +90,7 @@
                                                     </p>
                                                 </div>
                                                 <div>
-                                                    <asp:Button runat="server" OnClick="Unnamed_Click" Text="edit" />
+                                                    <asp:Button runat="server" OnClick="Unnamed_Click" Text="confirm email" />
                                                 </div>
                                             </div>
 
