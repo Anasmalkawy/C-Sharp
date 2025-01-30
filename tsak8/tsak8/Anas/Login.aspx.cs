@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 namespace tsak8.Anas
 {
@@ -29,11 +30,36 @@ namespace tsak8.Anas
                 string[] info = user.Split(',');
                 if (info[2]==email && info[3]==pass)
                 {
+                    string data = Server.MapPath("userss.txt");
+                    if (!File.Exists(data))
+                    {
+                        using (StreamWriter sw = File.CreateText(data))
+                        {
+                            sw.WriteLine($"{info[0]},{info[1]},{info[2]},{info[3]},{info[4]},{info[5]}");
+                        }
+
+                    }
+                    else
+                    {
+                        using (StreamWriter sw1 = new StreamWriter(data))
+
+                        {
+                            sw1.WriteLine($"{info[0]},{info[1]},{info[2]},{info[3]},{info[4]},{info[5]}");
+
+
+                        }
+                    }
+
+
                     Response.Redirect("Profile.aspx");
+
                     return;
                 }
                
             }
+
+
+            
         }
     }
 }
